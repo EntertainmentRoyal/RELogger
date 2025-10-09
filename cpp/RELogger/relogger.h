@@ -40,12 +40,12 @@
 */
 enum class LogLevel
 {
-    Trace,  /**< Extremely detailed information used for tracing execution flow. */
-    Debug,  /**< Developer-level diagnostic information. */
-    Info,   /**< General information for normal runtime events. */
-    Warn,   /**< Warnings about potential issues. */
-    Error,  /**< Errors that may prevent correct operation. */
-    Fatal,  /**< Critical errors causing shutdown or crash. */
+    Trace = 0,  /**< Extremely detailed information used for tracing execution flow. */
+    Debug,      /**< Developer-level diagnostic information. */
+    Info,       /**< General information for normal runtime events. */
+    Warn,       /**< Warnings about potential issues. */
+    Error,      /**< Errors that may prevent correct operation. */
+    Fatal,      /**< Critical errors causing shutdown or crash. */
 };
 
 /*

@@ -27,12 +27,12 @@
 
 typedef enum
 {
-    LogLevel_Trace,   /**< Detailed tracing information, for deep debugging. */
-    LogLevel_Debug,   /**< Developer-level debug messages. */
-    LogLevel_Info,    /**< General informational messages. */
-    LogLevel_Warn,    /**< Warning conditions; not fatal but noteworthy. */
-    LogLevel_Error,   /**< Error conditions that require attention. */
-    LogLevel_Fatal    /**< Critical conditions causing termination. */
+    LogLevel_Trace = 0,   /**< Detailed tracing information, for deep debugging. */
+    LogLevel_Debug,       /**< Developer-level debug messages. */
+    LogLevel_Info,        /**< General informational messages. */
+    LogLevel_Warn,        /**< Warning conditions; not fatal but noteworthy. */
+    LogLevel_Error,       /**< Error conditions that require attention. */
+    LogLevel_Fatal        /**< Critical conditions causing termination. */
 } LogLevel;
 
 /*
